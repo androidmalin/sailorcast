@@ -9,10 +9,14 @@ android {
         config {
             keyAlias 'sailorcast'
             keyPassword '123456'
-            storeFile file('../../sailorcast.jks')
+            storeFile file('../sailorcast.jks')
             storePassword '123456'
         }
     }
+      lintOptions {
+          abortOnError false
+      }
+
     compileSdkVersion 21
     buildToolsVersion "22.0.1"
     defaultConfig {
