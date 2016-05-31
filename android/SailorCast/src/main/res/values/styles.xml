@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="SailorCast" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="SailorCast" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Material theme -->
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
@@ -12,8 +12,8 @@
 
         -->
         <item name="android:windowBackground">@color/calypso_blue_light</item>
-        <item name="windowActionModeOverlay">true</item>
-        <item name="windowActionBar">false</item>
+        <!--<item name="windowActionModeOverlay">true</item>-->
+        <!--<item name="windowActionBar">false</item>-->
         <item name="android:seekBarStyle">@style/SeekBarAppTheme</item>
         <item name="android:editTextStyle">@android:style/Widget.EditText</item>
     </style>
